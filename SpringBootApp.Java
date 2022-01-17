@@ -19,6 +19,9 @@ public class DemoApplication {
 @Value("${property_key_name:default_value}")
 
 @Value("${spring.application.name:demoservice}")
+2017-11-26 08:13:16.322  INFO 14028 --- [           
+   main] com.tutorialspoint.demo.DemoApplication  :
+   The following profiles are active: prod
    }
 }   
 
