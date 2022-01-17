@@ -19,6 +19,13 @@ public class DemoApplication {
 2017-11-26 08:13:16.322  INFO 14028 --- [           
    main] com.tutorialspoint.demo.DemoApplication  :
    The following profiles are active: dev
+//new code added for Hdfc-300 userstory --Mahender
+@Value("${property_key_name:default_value}")
+
+@Value("${spring.application.name:demoservice}")
+2017-11-26 08:13:16.322  INFO 14028 --- [           
+   main] com.tutorialspoint.demo.DemoApplication  :
+   The following profiles are active: prod
    }
 }   
 
